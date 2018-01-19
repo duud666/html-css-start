@@ -1,0 +1,522 @@
+@charset "utf-8";
+
+#headline{
+	
+		width:100%;
+		height:300px;
+		min-width:1263px;
+		background-position:center;
+		background-repeat:no-repeat;
+		background-image:/*linear-gradient(to right bottom ,rgba(0,0,0,0.3),rgba(0,0,0,0)),*/ url(../img/back1.png);
+							/*css颜色渐变功能，后者为透明度*/
+	
+}
+#headline .center{
+	
+	width:1263px;
+	height:300px;
+	margin:0 auto;
+	
+}
+#headline hgroup{
+	padding:100px 0 0 250px;
+}
+#headline h2{
+	color:#eee;
+	font-size:36px;
+	letter-spacing:1px;
+	}
+#headline h3{
+	color:#eee;
+	font-size:20px;
+	letter-spacing:1px;
+	}
+#container {
+	
+	width:1263px;
+	height:1100px;
+	margin:30px auto;
+}
+#container .sidebar{
+	width:350px;
+	height:1200px;
+	float:right;
+	
+		
+}
+#container .sidebox{
+	/*景点推荐的公共部分设置*/
+	border:1px solid #eee;/*1px的边框*/
+	margin:0 0 10px 0;
+	text-align:center;/*整体居中*/
+}
+#container .sidebox h2{
+	font-size:20px;
+	font-weight:none;
+	letter-spacing:1px; /*间距*/
+	text-indent:8px; /*首行缩进*/
+	height:40px;
+	line-height:40px;/*行高*/
+	background-color:#fafafa;
+	color:#666;
+	text-align:left;/*强制h2标题居左*/
+	
+}
+#container .tag{
+	
+	padding:10px 0;/*上下10px,左右为0*/
+}
+#container .tag li{
+	display:inline-block;/*因为是内联不能设置高度宽度，所以转化为不限制*/
+	height:32px;
+	width:105px;
+	background-color:#eee;
+	line-height:30px;/*行高*/
+	margin:2px 0;/*上下空2px*/
+	text-align:left;/*文本位置*/
+	text-indent:7px;
+	
+}
+#container .tag a{
+	
+	display:block;
+	color:#999;
+	
+}
+#container .tag a:hover{
+	
+	background-color:#458b00;
+	color:#fff;
+}
+#container .figure{
+	
+	padding:10px 0;/*外边距*/
+}
+#container figure{
+	display:inline-block;
+	padding:4px;
+	color:#666;
+	
+}
+#container .box{
+	
+	padding:10px 0;/*上下10px,左右为0*/
+}
+#container .box a{
+	display:inline-block;/*因为是内联不能设置高度宽度，所以转化为不限制*/
+	height:30px;
+	width:150px;
+	line-height:30px;/*行高*/
+	margin:2px 0;/*上下空2px*/
+	color:#999;
+	margin:2px 0;
+	text-align:left;
+	text-indent:35px;
+	background-color:#eee;
+	
+}
+#container .box a:hover{
+	
+	background-color:#458b00;
+	color:#fff;
+}
+#container .box a.trea1{
+	background-position:10px;
+	background-repeat:no-repeat;
+	background-image:url(../img/trea1.png);
+	
+}
+#container .list{
+	width:905px;
+	height:1200px;
+	float:left;
+	
+	
+}
+#container .infor{
+	height:45px;/*一共45px*/
+	line-height:45px;/*行高*/
+	background-color:#eee;
+	margin:0 0 10px 0;
+}
+#container .information .left{
+	display:inline-block;
+	float:left;
+}
+#container .information .left li{
+	background-color:#eee;
+	display:inline-block;
+	width:150px;
+	height:43px;
+	line-height:43px;
+	text-align:center;
+}
+#container .information .left a{/*修改超链接的css*/
+	color:#666;
+	font-size:20px;
+	
+}
+#container .information .left a:hover{/*修改超链接的css*/
+	color:red;
+	background-color:yellow;
+}
+#container .information .left li:first-child{
+	background-color:#fff;
+	border-top:2px solid green;/*占用了2px，所以上级为43px，一共是45px*/
+	position:relative;
+	left:2px;
+}
+#container .information .right{
+	display:inline-block;
+	float:right;
+	padding:0 20px 0 0;
+	
+}
+#container .information .right li{
+	display:inline-block;
+	width:60px;
+	height:45xpx;
+	line-height:45px;
+	text-align:center;
+	background-color:#eee;
+	
+}
+#container .information .right a{
+	padding:3px 8px;
+	font-size:20px;
+	color:#666;
+}
+#container .information .right a.selected,#container .information .right a:hover{
+	
+	background-color:green;
+	color:#fff;
+}
+#container .tour{
+	width:905px;
+	padding:0;/*去掉外边距*/
+	margin:0 0 20px 0;/*内边距设置下空20px*/
+	border:1px solid #eee;/*边框加了2个px，所以图片文字改为463px*/
+	position:relative;
+}
+#container .tour img{
+	float:left;
+}
+#container .tour figcaption{/*figcaption图片的文字css*/
+	width:463px;			/*总905px，图片440px，图片文字465*/
+	height:220px;
+	float:right;
+	
+}
+#container .tour hgroup{
+	width:230px;			
+}
+#container .tour h2{
+	font-size:24px;
+	color:#333;
+	font-weight:normal;
+	padding:10px 0 5px 25px;/*上 右 下 左*/
+}
+#container .tour h3{
+	font-size:16px;
+	line-height:1.5;/*就是word里的行间距*/
+	color:#666;
+	font-weight:normal;
+	padding:10px 0 10px 25px;/*上 右 下 左*/		
+}
+#container .tour ol{
+	
+	padding:0 0 0 25px;
+	color:#666;
+	line-height:1.8;
+	
+}
+#container .tour .buy{
+	position:absolute;
+	top:45px;/*top:0;来调试*/
+	right:10px;/*right:0;来调试*/
+	
+}
+#container .tour .price{
+	font-size:20px;
+	color:#f60;
+}
+#container .tour .price strong{
+	font-size:35px;	
+}
+#container .tour .price s{
+	font-size:18px;	
+	color:#999;
+}
+#container .tour .reserve{
+	margin:5px 0 0 0;
+}
+#container .tour .reserve a{
+	display:block;/*超链接内联，去掉限制*/
+	width:152px;
+	height:40px;
+	line-height:40px;
+	border-radius:4px;
+	background-color:#f60;
+	color:#fff;
+	font-size:20px;
+	text-align:center;
+}
+#container .tour .type{
+		width:80px;
+		text-align:center;
+		background-color:green;
+		color:#fff;
+		position:absolute;
+		top:0px;
+		left:0px;
+}
+#container .tour .disc{
+	
+	position:absolute;
+	top:0;
+	right:0;
+	width:38px;
+	height:22px;
+	background:url(../img/disc.png);
+	background-repeat:no-repeat;
+	
+}
+#container .tour .disc span{
+	display:block;
+	transform:rotate(20deg);
+	width:38px;
+	height:22px;
+	padding:5px 0 0 0;
+	text-indent:5px;
+	font-size:12px;
+	color:#fff;
+	
+}
+#container .tour mark{
+	
+	color:#458b00;
+	border-radius:4px;
+	background-color:#fff;
+	border:1px solid green;
+	padding:0 5px;
+	
+}
+#container .tour footer {
+	width:463px;
+	height:30px;
+	line-height:30px;
+	letter-spacing:1px;
+	text-indent:25px;
+	background-color:#fafafa;
+	position:absolute;
+	bottom:0;
+}
+#container .tour time{
+	color:#458b00;
+}
+#container .information.more{
+	width:200px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	border:1px solid #ccc;
+	border-radius:10px;
+	font-size:18px;
+	margin:0 auto;
+	cursor:pointer;
+	background-color:#fafafa;
+	color:#666;
+	
+}
+#container .ticket h2,#container .view h2,#container .company h2{
+	color:#666;
+	font-size:20px;
+	
+}
+#container .ticket h2,#container .view h2,#container .company h2{
+	height:40px;
+	line-height:40px;
+	border-bottom:2px dashed #eee;
+	padding: 0 0 15px 0 ;
+	font-size:30px;
+	font-weight:normal;
+	}
+#container .ticket .type {
+	margin:20px 0 10px 0 ; 
+	
+}
+#container .ticket .type mark{
+	padding:5px 8px;
+	border-radius:4px;
+	color:#fff;
+	background-color:green;
+	margin:0 10px 0 16px;
+}
+
+#container .ticket .left {
+	width:43%;
+	display:inline-block;
+	
+}
+#container .ticket .right {
+	width:43%;
+	display:inline-block;
+	
+}
+#container .ticket .button {
+	width:9%;
+	display:inline-block;
+	
+	
+}
+#container .ticket .submit {
+	position:absolute;
+	top:508px;
+	display:block;/*超链接内联，去掉限制*/
+	width:90px;
+	height:90px;
+	line-height:90px;
+	border-radius:4px;
+	background-color:#f60;
+	color:#fff;
+	border:none;
+	font-size:20px;
+	text-align:center;
+	cursor:pointer;
+
+}
+#container .ticket .form p{
+	line-height:3;/*行间距*/
+}
+#container .ticket .form input{
+	
+	width:250px;
+	height:30px;
+	border:1px solid #ccc;
+	background-color:#fff;
+	border-radius:4px;
+	padding:5px;
+	font-size:18px;
+	color:#666;
+	margin:0 0 0 16px;
+	
+}
+#container .ticket .new{
+	margin:20px 0 0 0;
+	
+}
+#container .ticket .new ul{
+	margin:20px 0 0 0;
+}
+#container .ticket .new li{
+	display:inline-block;
+	padding:5px 10px;
+	text-align:center;
+	
+}
+#container .ticket .new li:first-child{
+	padding-left:0px;
+	
+}
+#container .ticket .new li:nth-child(2){
+	background-color: #458b00;
+	color: #fff;
+	border-radius:4px;
+			
+}
+#container .ticket .new li:hover{
+	background-color: #458b00;
+	color: #fff;
+	border-radius:4px;
+			
+}
+#container .ticket table{
+	margin:20px 0 0 0;
+	width:100%;
+	border:1px solid #ddd;
+	border-collapse:collapse;/*去掉表格的填充*/
+}
+#container .ticket th{
+	height:50px;
+	line-height:50px;
+	border-bottom:1px solid #ddd;/*只添加下端的线*/
+}
+#container .ticket td {
+	height:50px;
+	line-height:50px;
+	border-bottom:1px solid #ddd;
+	text-align:center;
+}
+#container .ticket tr:nth-child(2n){ /*只2n显示偶数*/
+	background-color: #fafafa;
+
+			
+}
+#container .ticket tr:hover{
+	background-color:#eee;
+	
+}
+#container .ticket .price {
+	color:#f60;
+}
+#container .ticket .more{
+	color:#666;
+}
+#container .ticket .reserve {
+	position:absolute;
+	margin:-20px 5px 0 5px;
+	display:block;/*超链接内联，去掉限制*/
+	width:80px;
+	height:40px;
+	line-height:40px;
+	border-radius:4px;
+	background-color:#f60;
+	color:#fff;
+	font-size:16px;
+}
+#container .view  figure{
+		
+		border:1px solid #ddd;   /*  1px的边框线 加粗*/
+		display:inline-table;
+		padding:4px;
+		border-radius:4px;
+		width:391px;
+		margin:15px 0 10px 30px;
+		text-align:left;
+		
+	}
+#container .view  figcaption{
+	
+	text-align:center;
+	padding:5px 0;
+	
+}
+#container .view .more{
+	width:200px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	border:1px solid #ccc;
+	border-radius:10px;
+	font-size:18px;
+	margin:0 auto;
+	cursor:pointer;
+	background-color:#fafafa;
+	color:#666;
+}
+#container .company p{
+	
+	color:#333;
+	font-size:16px;
+	line-height:2;
+	letter-spacing:2px;
+	margin:20px 0;	
+	
+}
+#container .company address{
+	line-height:1.6;
+	margin:20px 0;
+	font-style:normal;
+}
+
+ 

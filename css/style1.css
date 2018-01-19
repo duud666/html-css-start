@@ -1,0 +1,185 @@
+
+@charset "utf-8";
+
+	body,h1,h2,ul,p,figure{
+		/* 去掉内外间距和填充，上下 */
+		margin:0;
+		padding:0;
+	}
+	ul{
+		list-style:outside none none;/*将li前的小黑点去掉*/
+		
+		
+	}
+	a{
+		color:#666;
+		text-decoration:none;
+	}
+	.none{
+		display:none;
+		
+	}
+	.search{
+		
+		max-width:100%;
+		margin:0 auto;
+		height:450px;
+		min-width:1263px;
+		background-position:center;
+		background-repeat:no-repeat;
+		background-image:url(../img/back.jpg);
+		position:relative;
+		
+	}
+	.center1{
+		width:600px;
+		height:57px;
+		background-color:#000;
+		position:absolute;
+		top:35%;
+		left:50%;
+		margin:-30px 0 0 -300px;
+		border-radius:10px;
+		opacity:0.6;
+		
+	}
+	.search1{
+		width:446px;
+		height:50px;
+		position:absolute;
+		background-color:#eee;
+		top:35%;
+		left:50%;
+		margin:-28px 0 0 -298px;
+		border-radius:10px;
+		border:1px solid #666;
+		font-size:24px;
+		color:#666;
+		outline:none;
+		padding:0 10px;
+		
+	}
+	.button{
+		
+		width:120px;
+		height:50px;
+		position:absolute;
+		top:35%;
+		left:50%;
+		margin:-28px 0 0 175px;
+		border-radius:10px;
+		border:1px solid #666;
+		font-size:24px;
+		font-weight:bold;
+		background-color:#eee;
+		color:#666;
+		outline:none;
+		padding:0 10px;
+		cursor:pointer;
+		
+		
+	}
+	#tour{
+		width:1263px;
+		height:1150px;
+		/*background-color:#ccc;*/
+		margin:30 auto;
+		text-align:center;
+	}
+	
+	#tour .center h2{
+		margin:10px 0;
+		font-size:45px;
+		letter-spacing:2px;
+		color:#000;
+	
+		
+	}
+	#tour .center p{
+		color:#666;
+		margin:10px 0;
+		
+	}
+	#tour  figure{
+		
+		
+		border:1px solid #ddd;   /*  1px的边框线 加粗*/
+		display:inline-table;
+		padding:4px;
+		border-radius:4px;
+		width:360px;
+		margin:15px 12px;
+		text-align:left;
+		
+	}
+	#tour figure img{
+		
+		vertical-align:middle;
+		
+	}
+	#tour figure figcaption{
+		color:#777;
+		font-size:14px;
+		
+		padding:7px 0 5px 0;
+		letter-spacing:1px;
+		line-height:1.5;
+	}
+	#tour .title{
+		color:#333;
+		font-size:14px;
+		font-weight:normal;
+		text-align:left;
+		padding:7px 0 5px 0;
+		letter-spacing:1px;
+		line-height:1.5;
+	}
+	#tour .sat{
+		float:right;
+		font-size:13px;
+		color:#999;
+		font-style:normal;
+		position:relative;
+		top:5px;
+		right:5px;
+	}
+	#tour .price{
+		
+		font-size:14px;
+		color:#f60;
+		font-style:normal;
+		
+		
+	}
+	#tour .price strong{
+		
+		font-size:20px;
+		letter-spacing:1px;
+		
+	}
+	
+	#tour .tab{
+		
+		width:80px;
+		text-align:center;
+		background-color:green;
+		color:#fff;
+		position:relative;
+		top:-298px;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
