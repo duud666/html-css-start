@@ -25,3 +25,5 @@
 **至于js，jq等待我会在以后上传的代码中再说**
 
 **这个就是一个仿旅游网站的，初学者基本都是仿其他的来练习了，毕竟当时还是小菜了**
+预览：https://htmlpreview.github.io/?https://raw.githubusercontent.com/duud666/html-css-start/master/index.html
+
